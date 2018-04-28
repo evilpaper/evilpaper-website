@@ -13,15 +13,29 @@
 
   <body>
     <div class="wrap">
-      <h1 class="glitch">EVIL PAPER</h1>
-      <a target="_blank" href="http://www.evilpaper.com/scratchnsniffnslap">Scratch 'n Sniff 'n Slap</a>
+      <h1 class="glitch title">EVIL PAPER</h1>
       <a target="_blank" href="http://evilpaper.com/mrmenmemory/">Mr Men Memory Match</a>
       <a target="_blank" href="https://www.lexaloffle.com/bbs/?pid=39048&tid=29107">Thunder Bella</a>
+      <a target="_blank" href="http://www.evilpaper.com/scratchnsniffnslap">Scratch 'n Sniff 'n Slap</a>
       <a target="_blank" href="http://sesamememobooks.com/">Sesame Memo Books</a>
       <a target="_blank" href="https://codepen.io/evilpaper/">Codepen</a>
       <a target="_blank" href="https://github.com/evilpaper">Github</a>
       <a target="_blank" href="mailto:pelle@evilpaper.com">E-mail</a>
     </div>
+
+    <script>
+      const title = document.querySelector('title');
+
+      const applyGlitch = (element) => {
+        element.classList.add("applyGlitch");
+        element.addEventListener("animationend", (event) => {
+          element.classList.remove("applyGlitch");
+        });
+      }
+
+      // setInterval(applyGlitch(title), 1000);
+
+    </script>
   </body>
 
 </html>
