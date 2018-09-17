@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <title>Evil Paper</title>
-  </head>
 
-  <body>
-    <div class="wrap">
-      <h1 class="glitch title">EVIL PAPER</h1>
-      <a target="_blank" href="http://evilpaper.com/mrmenmemory/">Mr Men Memory Match</a>
-      <a target="_blank" href="https://www.lexaloffle.com/bbs/?pid=39048&tid=29107">Thunder Bella</a>
-      <a target="_blank" href="http://www.evilpaper.com/scratchnsniffnslap">Scratch 'n Sniff 'n Slap</a>
-      <a target="_blank" href="http://sesamememobooks.com/">Sesame Memo Books</a>
-      <a target="_blank" href="https://codepen.io/evilpaper/">Codepen</a>
-      <a target="_blank" href="https://github.com/evilpaper">Github</a>
-      <a target="_blank" href="mailto:pelle@evilpaper.com">E-mail</a>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <title>Evil Paper</title>
+</head>
 
-    <script>
-      const title = document.querySelector('title');
+<body>
+  <div class="wrap">
+    <p class="typing">Hi, I'm Evil Paper, I make things on the web.</p>
+    <br>
+    <p>Here are some of the things I made.</p>
+    <a target="_blank" href="http://evilpaper.com/mrmenmemory/"> > Mr Men Memory Match</a>
+    <a target="_blank" href="https://evilpaper.itch.io/thunder-bella-the-cloud-chaser"> > Thunder Bella The Cloud Chaser</a>
+    <a target="_blank" href="http://www.evilpaper.com/scratchnsniffnslap"> > Scratch 'n Sniff 'n Slap</a>
+    <br>
+    <p>// more //</p>
+    <a target="_blank" href="https://codepen.io/evilpaper/">Codepen</a>
+    <a target="_blank" href="https://github.com/evilpaper">Github</a>
+    <a href="mailto:pelle@evilpaper.com">E-mail</a>
+  </div>
 
-      const applyGlitch = (element) => {
-        element.classList.add("applyGlitch");
-        element.addEventListener("animationend", (event) => {
-          element.classList.remove("applyGlitch");
-        });
-      }
-
-      // setInterval(applyGlitch(title), 1000);
-
-    </script>
-  </body>
+  <script src="js/logic.js"></script>
+</body>
 
 </html>
