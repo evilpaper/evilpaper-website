@@ -4,8 +4,7 @@ html {
 }
 
 body {
-  background: url("../img/safehousebg.jpg") center center; /* image credit: Blaise Arnold */
-  background-size: cover;
+  background-color: black;
 }
 
 .wrap {
