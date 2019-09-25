@@ -25,7 +25,9 @@ p {
 }
 
 a:hover {
-  color: #e05252;
+  transition: 0.25s;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 @media (max-width: 1800px) {
