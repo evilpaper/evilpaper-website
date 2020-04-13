@@ -1,6 +1,6 @@
-(function() {
+(function () {
   let i = 0;
-  let speed = 50;
+  let speed = 36;
   let element = document.querySelector(".typing");
   let text = element.innerHTML;
   element.innerHTML = "";
