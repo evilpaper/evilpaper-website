@@ -1,3 +1,11 @@
+:root {
+  --color-background: #042342;
+  --color-primary: #fec60f;
+  --color-secondary: #3fc3f3;
+  --color-tertiary: #df5065;
+  --color-quartely: #ebe2c5;
+}
+
 html {
   margin: 0;
   box-sizing: border-box;
@@ -5,6 +13,7 @@ html {
 
 body {
   background-color: black;
+  background-color: var(--color-background);
 }
 
 .wrap {
@@ -13,21 +22,62 @@ body {
   margin: 4rem auto;
 }
 
+h1,
+h2 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  color: var(--color-quartely);
+}
+
 a,
 p {
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
   text-decoration: none;
   color: #ddd;
+  color: var(--color-secondary);
   font-size: 0.9rem;
   display: block;
   margin: 0.2rem auto;
 }
 
+a {
+  margin-top: 3em;
+}
+
 a:hover {
   transition: 0.25s;
-  -webkit-transform: scale(1.01);
-  transform: scale(1.01);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.description {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.name {
+  color: var(--color-primary);
+  font-weight: 900;
+  font-size: 1.8em;
+}
+
+.role {
+  color: var(--color-tertiary);
+  font-weight: 200;
+}
+
+.techniques {
+  color: var(--color-quartely);
 }
 
 @media (max-width: 1800px) {
