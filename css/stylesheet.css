@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@400;900&display=swap");
+
 :root {
   --color-background: #042342;
   --color-primary: #fec60f;
@@ -59,7 +61,7 @@ a {
 
 body {
   background-color: var(--color-background);
-  font-family: "Roboto Mono", monospace;
+  font-family: "Fira Code", "Roboto Mono", monospace;
   padding-bottom: 4em;
 }
 
@@ -75,7 +77,7 @@ section {
 
 h1,
 h2 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.2;
 }
 
@@ -94,6 +96,7 @@ h2 {
 
 .project {
   font-family: "Roboto Mono", monospace;
+  font-family: "Fira Code", "Roboto Mono", monospace;
   font-weight: 300;
   color: var(--color-secondary);
   font-size: 0.9rem;
@@ -112,14 +115,12 @@ h2 {
 }
 
 .description {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 400;
   letter-spacing: 2px;
 }
 
 .name {
   color: var(--color-primary);
-  font-weight: 900;
+  font-weight: 500;
   font-size: 1.8em;
 }
 
@@ -137,6 +138,10 @@ h2 {
   font-size: 0.8em;
 }
 
+.project-link:hover {
+  text-decoration: underline;
+}
+
 .more,
 .contact {
   display: flex;
@@ -146,7 +151,7 @@ h2 {
 }
 
 .link-button {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Fira Code", "Roboto Mono", monospace;
   font-weight: 400;
   letter-spacing: 2px;
   text-align: center;
@@ -161,15 +166,25 @@ h2 {
   width: 30em;
 }
 
+.link-button:hover {
+  background-color: var(--color-primary);
+  border: 0.2em solid var(--color-secondary);
+  box-shadow: 0.4em 0.4em var(--color-secondary);
+}
+
 .contact {
   margin-bottom: 10em;
 }
 
 .contact-link {
   display: block;
-  color: var(--color-quartely);
   margin-top: 3em;
   font-size: 0.8em;
+  color: var(--color-primary);
+}
+
+.contact-link:hover {
+  color: var(--color-tertiary);
 }
 
 @media (max-width: 1800px) {
