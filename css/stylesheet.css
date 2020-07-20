@@ -100,16 +100,6 @@ h2 {
   padding-top: 3em;
 }
 
-.project:hover {
-  text-decoration: underline;
-}
-
-.project:active {
-}
-
-.project:visited {
-}
-
 .description {
   letter-spacing: 2px;
 }
@@ -132,10 +122,16 @@ h2 {
 .project-link {
   color: var(--color-secondary);
   font-size: 0.8em;
+  border: 1px solid var(--color-secondary);
+  box-shadow: 0.3em 0.3em var(--color-secondary);
+  padding: 0.4em 2em;
+  margin-top: 0.4em;
+  display: inline-block;
 }
 
 .project-link:hover {
-  text-decoration: underline;
+  color: var(--color-background);
+  background-color: var(--color-quartely);
 }
 
 .more,
@@ -175,7 +171,7 @@ h2 {
   display: block;
   margin-top: 3em;
   font-size: 0.8em;
-  color: var(--color-primary);
+  color: var(--color-quartely);
 }
 
 .contact-link:hover {
