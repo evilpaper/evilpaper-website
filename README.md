@@ -1,3 +1,3 @@
 # evilpaper.com
 
-source code to evilpaper.com
+source code for evilpaper.com
