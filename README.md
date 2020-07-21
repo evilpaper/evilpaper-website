@@ -1,2 +1,1 @@
-# evilpaper-website
-evilpaper website
+# evilpaper.com
