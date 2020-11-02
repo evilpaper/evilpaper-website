@@ -136,6 +136,10 @@ h2 {
   background-color: var(--color-quartely);
 }
 
+.project img {
+  border-radius: 0.8em;
+}
+
 .more,
 .contact {
   display: flex;
