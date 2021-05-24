@@ -42,9 +42,9 @@ ul {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 12em;
+  width: auto;
   display: block;
-  width: 24em;
   margin-bottom: 1em;
 }
 
@@ -75,13 +75,13 @@ section {
   margin: 4rem auto;
 }
 
-h1,
+/* h1,
 h2 {
-  font-family: "Inter", Helvetica, sans-serif;
-  line-height: 1.2;
-}
+  line-height: 1.1;
+} */
 
 h1 {
+  font-family: "Inter", Helvetica, sans-serif;
   font-size: 2.8em;
   font-weight: 600;
   color: var(--color-primary);
@@ -93,6 +93,21 @@ h2 {
   color: var(--color-secondary);
   font-weight: 400;
   line-height: 1.6;
+  font-family: "Fira Code", Courier, monospace;
+}
+
+.kicker {
+  max-width: 30em;
+  color: var(--color-quartely);
+}
+
+.kicker-link {
+  color: var(--color-primary);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project {
@@ -101,10 +116,8 @@ h2 {
   font-size: 0.9rem;
   display: block;
   padding-top: 4em;
-}
-
-.description {
-  letter-spacing: 2px;
+  margin-right: 2em;
+  max-width: 24em;
 }
 
 .name {
@@ -113,20 +126,24 @@ h2 {
   font-size: 1.8em;
 }
 
+.work {
+  color: var(--color-quartely);
+}
+
 .role {
   color: var(--color-tertiary);
   font-weight: 200;
 }
 
 .techniques {
-  color: var(--color-quartely);
+  color: var(--color-primary);
 }
 
 .project-link {
   color: var(--color-secondary);
   font-size: 0.8em;
-  border: 1px solid var(--color-secondary);
-  box-shadow: 0.3em 0.3em var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  box-shadow: 0.4em 0.4em var(--color-secondary);
   padding: 0.4em 2em;
   margin-top: 0.4em;
   display: inline-block;
@@ -137,9 +154,9 @@ h2 {
   background-color: var(--color-quartely);
 }
 
-.project img {
+/* .project img {
   border-radius: 0.8em;
-}
+} */
 
 .more,
 .contact {
