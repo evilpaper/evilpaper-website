@@ -67,20 +67,12 @@ body {
 }
 
 section {
-  padding-top: 3.4em;
+  padding: 3em 1em;
 }
 
 .wrap {
   max-width: 1024px;
-  margin: 4rem auto;
-}
-
-h1 {
-  font-family: "Inter", Helvetica, sans-serif;
-  font-size: 2.8em;
-  font-weight: 600;
-  color: var(--color-primary);
-  padding-top: 1em;
+  margin: 0 auto;
 }
 
 h2 {
@@ -101,28 +93,26 @@ h2 {
 
 .name {
   color: var(--color-primary);
-  font-weight: 400;
-  font-size: 1.4em;
+  font-weight: 500;
+  font-size: 1.3em;
 }
 
 .work {
   color: var(--color-quartely);
+  font-weight: 300;
+  font-size: 1.3em;
 }
 
-.role {
+.tags {
   color: var(--color-tertiary);
-  font-weight: 200;
-}
-
-.techniques {
-  color: var(--color-primary);
+  font-weight: 300;
+  font-size: 1.3em;
 }
 
 .project-link {
   color: var(--color-secondary);
   font-size: 0.8em;
   border: 2px solid var(--color-secondary);
-  /* box-shadow: 0.2em 0.2em var(--color-secondary); */
   padding: 0.2em 1.6em;
   display: inline-block;
 }
