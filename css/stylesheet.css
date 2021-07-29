@@ -1,9 +1,14 @@
 :root {
-  --color-background: #042342;
+  /* --color-background: #042342;
   --color-primary: #fec60f;
   --color-secondary: #3fc3f3;
   --color-tertiary: #df5065;
-  --color-quartely: #ebe2c5;
+  --color-quartely: #ebe2c5; */
+  --color-background: #fcf9f5;
+  --color-primary: #fd3933;
+  --color-secondary: #003bdf;
+  --color-tertiary: #3f191f;
+  --color-quartely: #2a2aff;
 }
 
 *,
@@ -77,14 +82,20 @@ section {
 
 h2 {
   font-size: 1.2em;
-  color: var(--color-secondary);
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.4;
   font-family: "Fira Code", Courier, monospace;
 }
 
+p {
+  font-size: 1.4em;
+}
+
 .kicker {
-  color: var(--color-quartely);
+  color: var(--color-tertiary);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .kicker-link {
@@ -92,20 +103,26 @@ h2 {
 }
 
 .name {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: var(--color-primary);
-  font-weight: 500;
-  font-size: 1.3em;
+  font-weight: 900;
+  line-height: 1.8;
 }
 
 .work {
+  font-family: "Roboto Slab", serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   color: var(--color-quartely);
-  font-weight: 300;
-  font-size: 1.3em;
+  line-height: 1.8;
 }
 
 .tags {
+  font-family: "IBM Plex Mono", monospace;
   color: var(--color-tertiary);
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 1.8;
   font-size: 1.3em;
 }
 
