@@ -1,9 +1,4 @@
 :root {
-  /* --color-background: #042342;
-  --color-primary: #fec60f;
-  --color-secondary: #3fc3f3;
-  --color-tertiary: #df5065;
-  --color-quartely: #ebe2c5; */
   --color-background: #fcf9f5;
   --color-primary: #fd3933;
   --color-secondary: #003bdf;
@@ -66,7 +61,7 @@ a {
 }
 
 body {
-  font-family: "Fira Code", Courier, monospace;
+  font-family: "IBM Plex Mono", Courier, monospace;
   background-color: var(--color-background);
   padding-bottom: 4em;
 }
@@ -78,13 +73,6 @@ section {
 .wrap {
   max-width: 1024px;
   margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2em;
-  font-weight: 400;
-  line-height: 1.4;
-  font-family: "Fira Code", Courier, monospace;
 }
 
 p {
@@ -103,7 +91,6 @@ p {
 }
 
 .name {
-  font-family: "Inter", sans-serif;
   font-family: "Roboto Slab", serif;
   color: var(--color-primary);
   font-weight: 900;
@@ -111,7 +98,6 @@ p {
 }
 
 .work {
-  font-family: "Roboto Slab", serif;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: var(--color-quartely);
@@ -160,6 +146,7 @@ p {
   margin-top: 3em;
   max-width: 90%;
   width: 30em;
+  display: inline-block;
 }
 
 .link-button:hover {
@@ -183,7 +170,8 @@ p {
   color: var(--color-tertiary);
 }
 
-.contact-logo {
+.logo {
+  margin: 0 auto;
   width: 14em;
 }
 
