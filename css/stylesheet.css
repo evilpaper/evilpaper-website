@@ -1,8 +1,13 @@
 :root {
-  --color-background: #fff;
+  /* --color-background: #fff;
   --color-primary: #ff2d26;
-  --color-secondary: #304ef8;
-  --color-tertiary: #2e1212;
+  --color-secondary: #066ef6;
+  --color-tertiary: #2e1212; */
+  --color-background: #eee9e8;
+  --color-primary: #ed3833;
+  --color-secondary: #6c49f6;
+  --color-tertiary: #27373b;
+  --color-quartiary: #ea59f9;
 }
 
 *,
@@ -66,7 +71,7 @@ body {
 }
 
 section {
-  padding: 3em 1em;
+  padding: 1rem;
 }
 
 .wrap {
@@ -81,6 +86,7 @@ p {
 .kicker {
   color: var(--color-tertiary);
   font-family: "Inter", sans-serif;
+  font-family: "IBM Plex Serif", serif;
   font-weight: 400;
   line-height: 1.4;
 }
@@ -94,27 +100,34 @@ p {
 
 .name {
   font-family: "Roboto Slab", serif;
+  font-size: 1.6em;
   color: var(--color-primary);
   font-weight: 700;
   line-height: 1.6;
 }
 
+.name > span {
+  font-weight: 400;
+}
+
 .work {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
   color: var(--color-tertiary);
   line-height: 1.6;
 }
 
 .tags {
   font-family: "IBM Plex Mono", monospace;
-  color: var(--color-secondary);
+  color: var(--color-quartiary);
   font-weight: 400;
   line-height: 1.6;
   font-size: 1em;
 }
 
 .project-link {
+  font-family: "Inter", sans-serif;
   color: var(--color-secondary);
   font-size: 0.8em;
   border: 0.2em solid var(--color-secondary);
@@ -127,10 +140,10 @@ p {
   background-color: var(--color-secondary);
 }
 
-.link-button {
+.contact-link {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 0.7em;
-  letter-spacing: 2px;
+  font-size: 0.6em;
   text-align: center;
   background-color: var(--color-secondary);
   color: var(--color-background);
@@ -140,7 +153,7 @@ p {
   display: inline-block;
 }
 
-.link-button:hover {
+.contact-link:hover {
   background-color: var(--color-primary);
   border: 0.2em solid var(--color-secondary);
   box-shadow: 0.2em 0.2em var(--color-secondary);
