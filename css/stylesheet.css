@@ -1,9 +1,9 @@
 :root {
-  --color-background: #fcf9f5;
-  --color-primary: #fd3933;
+  --color-background: #f8f1e6;
+  --color-primary: #ce2924;
   --color-secondary: #003bdf;
   --color-tertiary: #3f191f;
-  --color-quartely: #2a2aff;
+  --color-quartely: #3030f8;
 }
 
 *,
@@ -87,35 +87,38 @@ p {
 }
 
 .kicker-link {
-  color: var(--color-primary);
+  font-family: "IBM Plex Mono", monospace;
+  color: var(--color-secondary);
+  line-height: 1.6;
+  font-size: 1.4em;
 }
 
 .name {
   font-family: "Roboto Slab", serif;
   color: var(--color-primary);
-  font-weight: 900;
-  line-height: 1.8;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .work {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: var(--color-quartely);
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .tags {
   font-family: "IBM Plex Mono", monospace;
   color: var(--color-tertiary);
   font-weight: 400;
-  line-height: 1.8;
-  font-size: 1.3em;
+  line-height: 1.6;
+  font-size: 1em;
 }
 
 .project-link {
   color: var(--color-secondary);
   font-size: 0.8em;
-  border: 2px solid var(--color-secondary);
+  border: 0.2em solid var(--color-secondary);
   padding: 0.2em 1.6em;
   display: inline-block;
 }
@@ -135,24 +138,21 @@ p {
 
 .link-button {
   font-weight: 400;
+  font-size: 0.7em;
   letter-spacing: 2px;
   text-align: center;
   background-color: var(--color-quartely);
   color: var(--color-background);
   border: 0.2em solid var(--color-tertiary);
-  border-radius: 1em;
-  box-shadow: 0.4em 0.4em var(--color-tertiary);
-  padding: 1em;
-  margin-top: 3em;
-  max-width: 90%;
-  width: 30em;
+  box-shadow: 0.2em 0.2em var(--color-tertiary);
+  padding: 0.1em 0.6em;
   display: inline-block;
 }
 
 .link-button:hover {
   background-color: var(--color-primary);
   border: 0.2em solid var(--color-secondary);
-  box-shadow: 0.4em 0.4em var(--color-secondary);
+  box-shadow: 0.2em 0.2em var(--color-secondary);
 }
 
 .contact {
@@ -172,7 +172,9 @@ p {
 
 .logo {
   margin: 0 auto;
-  width: 14em;
+  padding: 2rem;
+  width: 12rem;
+  height: auto;
 }
 
 @media (max-width: 1800px) {
