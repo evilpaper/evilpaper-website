@@ -99,15 +99,11 @@ p {
 }
 
 .name {
-  font-family: "Roboto Slab", serif;
+  font-family: "IBM Plex Serif", serif;
   font-size: 1.6em;
   color: var(--color-primary);
   font-weight: 700;
   line-height: 1.6;
-}
-
-.name > span {
-  font-weight: 400;
 }
 
 .work {
