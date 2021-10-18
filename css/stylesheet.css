@@ -99,10 +99,10 @@ p {
 }
 
 .name {
-  font-family: "IBM Plex Serif", serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.6em;
   color: var(--color-primary);
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.6;
 }
 
