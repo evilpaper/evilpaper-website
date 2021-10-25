@@ -99,10 +99,10 @@ p {
 }
 
 .name {
-  font-family: "Playfair Display", serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 1.6em;
   color: var(--color-primary);
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.6;
 }
 
