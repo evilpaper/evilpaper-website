@@ -109,7 +109,7 @@ p {
 .work {
   font-family: "Inter", sans-serif;
   font-family: "IBM Plex Serif", serif;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--color-tertiary);
   line-height: 1.6;
 }
@@ -158,6 +158,4 @@ p {
 .logo {
   margin: 0 auto;
   padding: 2rem;
-  width: 12rem;
-  height: auto;
 }
