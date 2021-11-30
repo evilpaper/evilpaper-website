@@ -3,7 +3,7 @@
   --color-primary: #ed3833;
   --color-secondary: #4300e0;
   --color-tertiary: #27373b;
-  --color-quartiary: #b9279c;
+  --color-quartiary: #eb0079;
 }
 
 *,
@@ -115,18 +115,16 @@ p {
   color: var(--color-quartiary);
   font-weight: 400;
   line-height: 1.6;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .project-link {
   font-family: "Inter", sans-serif;
   color: var(--color-secondary);
-  /* font-size: 0.8em; */
-  /* border: 0.2em solid var(--color-secondary); */
   margin: 0 1rem 0 0;
-  padding: 0 0.4rem;
+  padding: 0 0.2rem;
   display: inline-block;
-  border-radius: 1rem;
+  border-radius: 0.2rem;
 }
 
 .project-link span {
