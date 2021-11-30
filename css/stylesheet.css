@@ -121,10 +121,16 @@ p {
 .project-link {
   font-family: "Inter", sans-serif;
   color: var(--color-secondary);
-  font-size: 0.8em;
-  border: 0.2em solid var(--color-secondary);
-  padding: 0.2em 1.6em;
+  /* font-size: 0.8em; */
+  /* border: 0.2em solid var(--color-secondary); */
+  margin: 0 1rem 0 0;
+  padding: 0 0.4rem;
   display: inline-block;
+  border-radius: 1rem;
+}
+
+.project-link span {
+  font-weight: 900;
 }
 
 .project-link:hover {
