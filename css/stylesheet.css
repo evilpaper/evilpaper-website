@@ -99,21 +99,20 @@ section {
 }
 
 .project-link {
-  font-family: "IBM Plex Mono", Courier, monospace;
+  font-family: "IBM Plex Sans", sans-serif;
   color: var(--color-secondary);
   margin: 0 0.4rem 0 0;
-  padding: 0 0.2rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   font-size: 0.9rem;
 }
 
 .project-link:hover {
-  color: var(--color-background);
-  background-color: var(--color-secondary);
+  text-decoration: underline;
 }
 
 .contact-link {
   font-family: "Inter", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 0.6em;
   text-align: center;
