@@ -87,7 +87,8 @@ section {
 }
 
 .name {
-  font-family: "Libre Baskerville", serif;
+  font-family: "DM Serif Display", serif;
+  font-size: 1.2rem;
   color: var(--color-primary);
   font-weight: 700;
 }
