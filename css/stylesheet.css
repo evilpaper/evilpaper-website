@@ -76,8 +76,8 @@ section {
 }
 
 .kicker {
-  color: var(--color-tertiary);
   font-family: "IBM Plex Serif", serif;
+  color: var(--color-tertiary);
   font-weight: 400;
 }
 
@@ -94,8 +94,8 @@ section {
 
 .work {
   font-family: "IBM Plex Serif", serif;
-  font-weight: 400;
   color: var(--color-tertiary);
+  font-weight: 400;
 }
 
 .project-link {
@@ -111,7 +111,6 @@ section {
 }
 
 .contact-link {
-  font-family: "Inter", sans-serif;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 0.6em;
