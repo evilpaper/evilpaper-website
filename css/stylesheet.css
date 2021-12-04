@@ -49,11 +49,11 @@
 }
 
 :root {
-  --color-background: #eee9e8;
+  --color-background: #ece2e1;
   --color-primary: #fd0606;
-  --color-secondary: #5800db;
+  --color-secondary: #6601ff;
   --color-tertiary: #27373b;
-  --color-quartiary: #eb0079;
+  --color-quartiary: #f75cff;
   font-size: 22px;
 }
 
@@ -165,7 +165,6 @@ section {
 .project-link {
   font-family: "IBM Plex Mono", monospace;
   color: black;
-  margin-left: 0.4rem;
   border-radius: 1rem;
   font-size: 0.8rem;
 }
