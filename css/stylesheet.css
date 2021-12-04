@@ -144,6 +144,18 @@ section {
   line-height: 1;
 }
 
+.primary {
+  color: var(--color-primary);
+}
+
+.secondary {
+  color: var(--color-secondary);
+}
+
+.quartiary {
+  color: var(--color-quartiary);
+}
+
 .work {
   font-family: "IBM Plex Serif", serif;
   color: var(--color-tertiary);
@@ -152,7 +164,8 @@ section {
 
 .project-link {
   font-family: "IBM Plex Mono", monospace;
-  color: var(--color-secondary);
+  color: black;
+  margin-left: 0.4rem;
   border-radius: 1rem;
   font-size: 0.8rem;
 }
