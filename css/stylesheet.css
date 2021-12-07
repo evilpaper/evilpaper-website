@@ -54,7 +54,7 @@
   --color-secondary: #6601ff;
   --color-tertiary: #27373b;
   --color-quartiary: #f75cff;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 *,
@@ -67,7 +67,7 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 body,
@@ -134,6 +134,7 @@ section {
 .kicker-link {
   font-family: "IBM Plex Mono", monospace;
   color: var(--color-secondary);
+  font-size: 0.9rem;
 }
 
 .name {
@@ -141,7 +142,7 @@ section {
   font-size: 1.2rem;
   color: var(--color-primary);
   font-weight: 400;
-  line-height: 1;
+  line-height: 0.8;
 }
 
 .primary {
@@ -163,14 +164,19 @@ section {
 }
 
 .project-link {
+  display: inline-block;
   font-family: "IBM Plex Mono", monospace;
-  color: black;
   border-radius: 1rem;
-  font-size: 0.8rem;
+  border: 1px solid var(--color-tertiary);
+  color: var(--color-tertiary);
+  padding: 0 0.8rem;
+  font-size: 0.7rem;
 }
 
 .project-link:hover {
-  text-decoration: underline;
+  color: white;
+  border: 1px solid var(--color-quartiary);
+  background-color: var(--color-quartiary);
 }
 
 .contact-link {
