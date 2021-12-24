@@ -139,7 +139,7 @@ section {
 
 .name {
   font-family: "IBM Plex Serif", serif;
-  color: var(--color-primary);
+  color: var(--color-tertiary);
   font-weight: 700;
   letter-spacing: -0.5px;
 }
