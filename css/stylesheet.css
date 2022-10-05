@@ -161,6 +161,10 @@ section {
   color: var(--color-primary);
 }
 
+.tech {
+  font-family: "IBM Plex Serif", serif;
+}
+
 .contact-link {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
