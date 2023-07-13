@@ -52,8 +52,9 @@
   --color-background: hsla(5, 20%, 95%, 100%);
   --color-primary: #fd0606;
   --color-secondary: #4200ff;
-  --color-tertiary: #27373b;
+  --color-tertiary: #ff8c00;
   --color-quartiary: #ff00b8;
+  --color-text: #27373b;
   font-size: 20px;
 }
 
@@ -127,7 +128,7 @@ section {
 
 .heading {
   font-family: "IBM Plex Serif", serif;
-  color: var(--color-tertiary);
+  color: var(--color-text);
   font-weight: 700;
   letter-spacing: -0.5px;
   font-size: 1rem;
@@ -136,7 +137,7 @@ section {
 
 .kicker {
   font-family: "IBM Plex Serif", serif;
-  color: var(--color-tertiary);
+  color: var(--color-text);
   font-weight: 400;
 }
 
@@ -148,7 +149,7 @@ section {
 
 .name {
   font-family: "IBM Plex Serif", serif;
-  color: var(--color-tertiary);
+  color: var(--color-text);
   font-weight: 700;
   letter-spacing: -0.5px;
   font-size: 1rem;
@@ -156,14 +157,13 @@ section {
 
 .work {
   font-family: "IBM Plex Serif", serif;
-  color: var(--color-tertiary);
+  color: var(--color-text);
 }
 
 .project-link {
   font-family: "IBM Plex Serif", serif;
   display: inline-block;
   font-weight: 600;
-  color: var(--color-tertiary);
 }
 
 .project-link:hover {
@@ -180,9 +180,9 @@ section {
   font-size: 0.6em;
   text-align: center;
   background-color: var(--color-background);
-  color: var(--color-tertiary);
-  border: 0.2em solid var(--color-tertiary);
-  box-shadow: 0.2em 0.2em var(--color-tertiary);
+  color: var(--color-primary);
+  border: 0.2em solid var(--color-primary);
+  box-shadow: 0.2em 0.2em var(--color-primary);
   padding: 0.1em 0.6em;
   display: inline-block;
   vertical-align: top;
