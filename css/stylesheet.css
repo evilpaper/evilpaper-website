@@ -194,7 +194,7 @@ section {
   color: var(--color-background);
   border: 0.2em solid var(--color-secondary);
   background-color: var(--color-secondary);
-  box-shadow: 0.2em 0.2em var(--color-secondary);
+  box-shadow: 0.2em 0.2em var(--color-quartiary);
 }
 
 .primary {
