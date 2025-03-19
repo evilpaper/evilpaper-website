@@ -142,9 +142,11 @@ section {
 }
 
 .kicker-link {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Serif", serif;
   color: var(--color-secondary);
   font-size: 0.9rem;
+  font-weight: 900;
+  margin-left: -0.3rem;
 }
 
 .name {
